@@ -14,8 +14,8 @@ jobs:
       uses: Mattraks/delete-workflow-runs@main
       with:
         token: ${{ secrets.ACCESS_TOKEN }}
-        retain_days: 7
-        keep_minimum_runs: 5
+        retain_days: 20
+        keep_minimum_runs: 15
 
     - name: Delete Old Releases
       uses: dev-drprasad/delete-older-releases@master
