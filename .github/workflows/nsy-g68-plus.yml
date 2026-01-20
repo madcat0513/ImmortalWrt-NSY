@@ -1,4 +1,4 @@
-name: ImmortalWrt-g16
+name: nsy-g68-plus
 
 on:
   workflow_dispatch:
@@ -8,13 +8,13 @@ on:
 env:
   REPO_URL: https://github.com/zhoufuli/immortalwrt-rk356x
   REPO_BRANCH: main
-  CONFIG_FILE: configs/g16-plus-docker.config
+  CONFIG_FILE: configs/g68_mtk_wifi.config
   DIY_SCRIPT: diy-mini.sh
   CLASH_KERNEL: arm64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: immortalwrt-g16
+  FIRMWARE_TAG: nsy-g68-plus
   TZ: Asia/Shanghai
   GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
