@@ -3,7 +3,7 @@ name: nsy-g16-plus
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 20 * * *
+    #- cron: 0 20 * * *
 
 env:
   REPO_URL: https://github.com/zhoufuli/immortalwrt-rk356x
